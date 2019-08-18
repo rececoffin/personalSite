@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import resumeData from '../../resumeData';
 export default class About extends Component {
     render() {
         return (
@@ -20,17 +21,17 @@ export default class About extends Component {
                                 <div className="columns contact-details">
                                     <h2>Contact Details</h2>
                                     <p className="address">
-                                        <span>Rece Coffin</span><br />
-                                        <span>3430 S. Platte River Dr. Apt 5405<br />
-                                           Denver, CO 80110 US 
+                                        <span>{resumeData.name}</span><br />
+                                        <span>{resumeData.address1}<br />
+                                           {resumeData.address2} 
                                         </span><br />
-                                        <span>(970)520-7484</span><br />
-                                        <span>coffin.rece@gmail.com</span>
+                                        <span>{resumeData.phone}</span><br />
+                                        <span>{resumeData.email}</span>
                                     </p>
                                 </div>
                                 <div className="columns download">
                                     <p>
-                                        <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>
+                                        <a href="Resume.pdf" className="button"><i className="fa fa-download" />Download Resume</a>
                                     </p>
                                 </div>
                             </div> {/* end row */}

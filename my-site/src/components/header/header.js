@@ -13,7 +13,7 @@ export default class Header extends Component {
                             <li><a className="smoothscroll" href="#about">About</a></li>
                             <li><a className="smoothscroll" href="#resume">Resume</a></li>
                             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-                            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+                            {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
                             <li><a className="smoothscroll" href="#contact">Contact</a></li>
                         </ul> {/* end #nav */}
                     </nav> {/* end #nav-wrap */}
@@ -25,10 +25,16 @@ export default class Header extends Component {
                                 Let's <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                             <hr />
                             <ul className="social">
-                                <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                                <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                                <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-                                <li><a href="#"><i className="fa fa-github" /></a></li>
+                                {
+                                    resumeData.socialLinks && resumeData.socialLinks.map(item => {
+                                        return (
+                                            <li key={item.name}>
+                                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                                            </li>
+                                        )
+                                    }
+                                    )
+                                }
                             </ul>
                         </div>
                     </div>

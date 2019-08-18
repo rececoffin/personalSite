@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import resumeData from '../../resumeData';
 export default class Footer extends Component {
     render() {
         return (
@@ -7,18 +8,23 @@ export default class Footer extends Component {
                     <div className="row">
                         <div className="twelve columns">
                             <ul className="social-links">
-                                <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                                <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                                <li><a href="#"><i className="fa fa-google-plus" /></a></li>
-                                <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-                                <li><a href="#"><i className="fa fa-instagram" /></a></li>
-                                <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-                                <li><a href="#"><i className="fa fa-skype" /></a></li>
+                                <ul className="social">
+                                    {
+                                        resumeData.socialLinks && resumeData.socialLinks.map(item => {
+                                            return (
+                                                <li key={item.name}>
+                                                    <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                                                </li>
+                                            )
+                                        }
+                                        )
+                                    }
+                                </ul>
                             </ul>
-                            <ul className="copyright">
-                                <li>© Copyright /home/rcoffin/Documents/personalSite/my-site/src/components/header/header.js2014 CeeVee</li>
+                            {/* <ul className="copyright">
+                                <li>© Copyright Rece Coffin</li>
                                 <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-                            </ul>
+                            </ul> */}
                         </div>
                         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
                     </div>
