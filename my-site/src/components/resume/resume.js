@@ -13,28 +13,26 @@ export default class Resume extends Component {
                             <div className="nine columns main-col">
                                 <div className="row item">
                                     <div className="twelve columns">
-                                        <h3>University of Life</h3>
-                                        <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
+                                        <h3>Colorado School of Mines</h3>
+                                        <p className="info">Bachalors in Computer Science <span>•</span> <em className="date">May 2019</em></p>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                                            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-            </p>
+                                            Graduated with honors with a focus on Robotics and Intelligence
+                                            Systems. Was a member of the Club Baseball team for 4 years and
+                                            searved as an officer and captain for two. Was also a member of
+                                            the Mines Linux Users Group.
+                                        </p>
                                     </div>
                                 </div> {/* item end */}
-                                <div className="row item">
+                                {/* <div className="row item">
                                     <div className="twelve columns">
-                                        <h3>School of Cool Designers</h3>
-                                        <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March 2003</em></p>
+                                        <h3>Haxtun High School</h3>
+                                        <p className="info">Haxtun, Colorado<span>•</span> <em className="date">May 2015</em></p>
                                         <p>
-                                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                                            nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                                            ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-            </p>
+                                            Was an active member of Future Business Leaders of America, and
+                                            Future Farmers of America for 4 years. Participated in 4
+                                        </p>
                                     </div>
-                                </div> {/* item end */}
+                                </div> item end */}
                             </div> {/* main-col end */}
                         </div> {/* End Education */}
                         {/* Work

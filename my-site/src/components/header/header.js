@@ -21,7 +21,7 @@ export default class Header extends Component {
                         <div className="banner-text">
                             <h1 className="responsive-headline">I'm {resumeData.name}</h1>
                             <h3>
-                                A <span>{resumeData.role}</span> at <span>{resumeData.company}</span>
+                                A <span>{resumeData.role}</span> at <span>{resumeData.company} </span>
                                 Let's <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                             <hr />
                             <ul className="social">
