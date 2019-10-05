@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rececoffin/rececoffin.github.io/personalSite/static/css/main.34de6062.chunk.css",
-    "main.js": "/rececoffin/rececoffin.github.io/personalSite/static/js/main.091d2697.chunk.js",
-    "main.js.map": "/rececoffin/rececoffin.github.io/personalSite/static/js/main.091d2697.chunk.js.map",
-    "runtime~main.js": "/rececoffin/rececoffin.github.io/personalSite/static/js/runtime~main.d82ba5dc.js",
-    "runtime~main.js.map": "/rececoffin/rececoffin.github.io/personalSite/static/js/runtime~main.d82ba5dc.js.map",
-    "static/js/2.74c7c01c.chunk.js": "/rececoffin/rececoffin.github.io/personalSite/static/js/2.74c7c01c.chunk.js",
-    "static/js/2.74c7c01c.chunk.js.map": "/rececoffin/rececoffin.github.io/personalSite/static/js/2.74c7c01c.chunk.js.map",
-    "index.html": "/rececoffin/rececoffin.github.io/personalSite/index.html",
-    "precache-manifest.160a6adf41f87219c3f55a497173f4d7.js": "/rececoffin/rececoffin.github.io/personalSite/precache-manifest.160a6adf41f87219c3f55a497173f4d7.js",
-    "service-worker.js": "/rececoffin/rececoffin.github.io/personalSite/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "/rececoffin/rececoffin.github.io/personalSite/static/css/main.34de6062.chunk.css.map"
+    "main.css": "/personalSite/static/css/main.34de6062.chunk.css",
+    "main.js": "/personalSite/static/js/main.8caf4ee4.chunk.js",
+    "main.js.map": "/personalSite/static/js/main.8caf4ee4.chunk.js.map",
+    "runtime~main.js": "/personalSite/static/js/runtime~main.34a7b3ca.js",
+    "runtime~main.js.map": "/personalSite/static/js/runtime~main.34a7b3ca.js.map",
+    "static/js/2.74c7c01c.chunk.js": "/personalSite/static/js/2.74c7c01c.chunk.js",
+    "static/js/2.74c7c01c.chunk.js.map": "/personalSite/static/js/2.74c7c01c.chunk.js.map",
+    "index.html": "/personalSite/index.html",
+    "precache-manifest.2bc5d8c36d416676ed7e70d98322e8fd.js": "/personalSite/precache-manifest.2bc5d8c36d416676ed7e70d98322e8fd.js",
+    "service-worker.js": "/personalSite/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/personalSite/static/css/main.34de6062.chunk.css.map"
   }
 }
