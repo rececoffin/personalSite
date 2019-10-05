@@ -12,7 +12,7 @@ export default class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
                                         <a href="#modal-01" title>
-                                            <img alt="" src="images/portfolio/code.jpg" />
+                                            <img alt="" src="images/portfolio/binary.jpg" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
                                                     <h5>BitStacker</h5>
@@ -54,11 +54,11 @@ export default class Portfolio extends Component {
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
                                         <a href="#modal-04" title>
-                                            <img alt="" src="images/portfolio/code2.jpg" />
+                                            <img alt="" src="images/portfolio/code.jpg" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
-                                                    <h5>Useless</h5>
-                                                    <p></p>
+                                                    <h5>My Website</h5>
+                                                    <p>The source code to this site your looking at.</p>
                                                 </div>
                                             </div>
                                             <div className="link-icon"><i className="icon-plus" /></div>
@@ -69,7 +69,7 @@ export default class Portfolio extends Component {
                         </div> {/* twelve columns end */}
                         {/* Modal Popup--------------------------------------------- */}
                         <div id="modal-01" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/code.jpg" alt="" />
+                            <img className="scale-with-grid" src="images/portfolio/modals/binary.jpg" alt="" />
                             <div className="description-box">
                                 <h4>BitStacker</h4>
                                 <p>My Software Engineering capstone project</p>
@@ -102,13 +102,13 @@ export default class Portfolio extends Component {
                             </div>
                         </div>{/* modal-03 End */}
                         <div id="modal-04" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/code2.jpg" alt="" />
+                            <img className="scale-with-grid" src="images/portfolio/modals/code.jpg" alt="" />
                             <div className="description-box">
-                                <h4>I need more projects</h4>
-                                <p>Enjoy this site</p>
+                                <h4>My website</h4>
+                                <p>My first attempt at a react app.</p>
                             </div>
                             <div className="link-box">
-                                <a href="https://theuselessweb.com/">Details</a>
+                                <a href="https://github.com/rececoffin/personalSite">Details</a>
                                 <a className="popup-modal-dismiss">Close</a>
                             </div>
                         </div>{/* modal-03 End */}

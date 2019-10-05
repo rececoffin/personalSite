@@ -1,7 +1,7 @@
 let resumeData = {
   "imagebaseurl": "http://localhost:3000/",
   "name": "Rece Coffin",
-  "address1" : "3430 S. Platte River Dr. Apt 5405",
+  "address1" : "3430 S. Platte River Dr.",
   "address2" : "Sheridan, CO 80110 US",
   "phone" : "(970) 520-7484",
   "email" : "coffin.rece@gmail.com",

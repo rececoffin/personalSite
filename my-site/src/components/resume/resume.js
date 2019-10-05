@@ -15,11 +15,11 @@ export default class Resume extends Component {
                                 <div className="row item">
                                     <div className="twelve columns">
                                         <h3>Colorado School of Mines</h3>
-                                        <p className="info">Bachalors in Computer Science <span>•</span> <em className="date">May 2019</em></p>
+                                        <p className="info">B.S. in Computer Science <span>•</span> <em className="date">May 2019</em></p>
                                         <p>
                                             Graduated with honors with a focus on Robotics and Intelligence
                                             Systems. Was a member of the Club Baseball team for 4 years and
-                                            searved as an officer and captain for two. Was also a member of
+                                            served as an officer and captain for two. Was also a member of
                                             the Mines Linux Users Group.
                                         </p>
                                     </div>
@@ -46,7 +46,7 @@ export default class Resume extends Component {
                                 <div className="row item">
                                     <div className="twelve columns">
                                         <h3>Connexta LLC</h3>
-                                        <p className="info">Software Engineer <span>•</span> <em className="date">May 2014 - Present</em></p>
+                                        <p className="info">Software Engineer <span>•</span> <em className="date">May 2018 - Present</em></p>
                                         <p>
                                             I work open source development sprint tasks, ranging from creating new console 
                                             administrator commands, re factoring and upgrading core underlying components, 
@@ -57,7 +57,7 @@ export default class Resume extends Component {
                                 <div className="row item">
                                     <div className="twelve columns">
                                         <h3>Full Contact</h3>
-                                        <p className="info">Software Engineer Intern <span>•</span> <em className="date">May 2013 - August 2013</em></p>
+                                        <p className="info">Software Engineer Intern <span>•</span> <em className="date">May 2017 - August 2017</em></p>
                                         <p>
                                             I spent 6 weeks working with a team to develop a machine learning solution that
                                              could detect fraud accounts in real time. We then modified the solution to apply
@@ -76,8 +76,8 @@ export default class Resume extends Component {
                             </div>
                             <div className="nine columns main-col">
                                 <p>
-                                    Extensive experience working in an agile enviroment. Strong presentatio
-                                    and communitication stkills. As well as experience in the following technologies.
+                                    Extensive experience working in an agile environment.
+                                    Strong presentation and communication stills. As well as experience in the following technologies.
                                 </p>
                                 <div className="bars">
                                     <ul className="skills">
