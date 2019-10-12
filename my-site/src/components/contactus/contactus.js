@@ -23,15 +23,15 @@ export default class Contact extends Component {
                                 <fieldset>
                                     <div>
                                         <label htmlFor="contactName">Name <span className="required">*</span></label>
-                                        <input type="text" defaultValue size={35} id="contactName" name="contactName" defaultValue={""}/>
+                                        <input type="text" defaultValue size={35} id="contactName" name="contactName" defaultValue={""} />
                                     </div>
                                     <div>
                                         <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                                        <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" defaultValue={""}/>
+                                        <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" defaultValue={""} />
                                     </div>
                                     <div>
                                         <label htmlFor="contactSubject">Subject</label>
-                                        <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" defaultValue={""}/>
+                                        <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" defaultValue={""} />
                                     </div>
                                     <div>
                                         <label htmlFor="contactMessage">Message <span className="required">*</span></label>
@@ -60,6 +60,15 @@ export default class Contact extends Component {
                                     {resumeData.email} <br />
                                     <span>{resumeData.phone}</span>
                                 </p>
+                            </div>
+                            <div>
+                                <h4>Desert Island Songs</h4>
+                                <p>
+                                    If I were trapped on a dessert island <br />
+                                    with only 8 songs to listen to this<br />
+                                    would be them. Enjoy!
+                                </p>
+                                <iframe src="https://open.spotify.com/embed/playlist/6Thdu2ylIoTKWPKleNaaTx" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                             </div>
                         </aside>
                     </div>
